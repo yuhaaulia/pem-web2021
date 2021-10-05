@@ -1,0 +1,92 @@
+.text{
+    margin: -13% 33%;
+}
+
+.form{
+    border-radius: 10px;
+    padding: 10% 4%;
+    margin: 25% 10%;
+	background: none;
+	height: 0%;
+	padding-bottom: 0%;
+}
+
+body {
+    background-color: rgb(247, 247, 220);
+}
+
+img{
+	margin: 10% 80%;
+}
+
+.info{
+    text-align: center;
+	margin: -23% 0%;
+	padding: 0% 3%;
+	width: 70%;
+	height: 10%;
+	background: rgb(218, 189, 142);
+}
+
+.isi_info{
+	padding: 23% 0%;
+}
+
+.data{
+    text-align: center;
+	margin: -23% 0%;
+	padding: 0% 3%;
+	width: 70%;
+	height: 10%;
+	background: rgb(218, 189, 142);
+}
+
+.data_peserta{
+	padding: 23% 0%;
+}
+
+.data1{
+    text-align: center;
+	margin: -23% 0%;
+	padding: 0% 3%;
+	width: 70%;
+	height: 10%;
+	background: rgb(218, 189, 142);
+}
+
+.data1_ortu{
+	padding: 23% 0%;
+}
+
+.submit{
+	padding: 3% 0%;
+	margin: 0% 0%;	
+}
+
+.daftar{
+	border-radius: 10px;
+	color: white;
+	background: rgb(121, 55, 60);
+	border: none;
+	padding: 10px;
+	width: 10%;
+}
+
+.daftar:hover{
+	color: white;
+	background: rgb(187, 122, 36);
+}
+
+.batal{
+	border-radius: 10px;
+	color: white;
+	background: rgb(121, 55, 60);
+	border: none;
+	padding: 10px;
+	width: 10%;
+}
+
+.batal:hover{
+	color: white;
+	background: rgb(187, 122, 36);
+}

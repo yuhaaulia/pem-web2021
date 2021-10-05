@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="vieport" content="width=device.width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="form.css">
+        <title>Form PPDB Online</title>
+    </head>
+
+    <body >
+        <header>
+            <table> 
+                <tr>
+                    <th><img src="logo.png"></th>
+                </tr>
+            </table>
+        </header>
+
+        <div class="text">
+            <h2><b>SMA NEGRI 1 PETARUKAN</b></h2>
+            <h2><b>Formulir PPDB 2020<br></h2>
+        </div>
+
+        <div class="form">
+
+            <div class="info">
+                <h3> INFO PENDAFTARAN </h3>
+            </div>
+
+            <div class="isi_info">
+                <form action="proses.php" method="POST">
+                    <table>
+                        <tr>
+                            <td>NISN</td>
+                            <td>:</td>
+                            <td width="10"><input type="text" name="fnisn" size="20"/></td>
+                        </tr>
+                        <tr>
+                            <td>Asal Sekolah</td>
+                            <td>:</td>
+                            <td width="10"><input type="text" name="fsekolah" size="20"/></td>
+                        </tr>
+                        <tr>
+                            <td>Tahun Lulus</td>
+                            <td>:</td>
+                            <td width="10"><input type="number" name="flulus" size="20"/></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+
+            <div class="data">
+                <h3> DATA CALON PESERTA </h3>
+            </div>
+
+            <div class="data_peserta">
+                <form action="proses.php" method="POST">
+                    <table>
+                        <tr>
+                            <td>Nama Lengkap</td>
+                            <td>:</td>
+                            <td width="10"><input type="text" name="fnama" size="20"/></td>
+                        </tr>
+                        <tr>
+                            <td>NIK</td>
+                            <td>:</td>
+                            <td width="10"><input type="number" name="fnik" size="20"/></td>
+                        </tr>
+                        <tr>
+                            <td>Tempat / Tanggal Lahir</td>
+                            <td></td>
+                            <td width="10"><input type="text" name="tempat" size="20"/></td>
+                            <td><select name="tanggal lahir">
+                                <option value="1" selected="selected"> 1 </option>
+                                <option value="2" > 2 </option>
+                                <option value="3" > 3 </option>
+                                <option value="4" > 4 </option>
+                                <option value="5" > 5 </option>
+                                <option value="6" > 6 </option>
+                                <option value="7" > 7 </option>
+                                <option value="8" > 8 </option>
+                                <option value="9" > 9 </option>
+                                <option value="10" > 10 </option>
+                                <option value="11" > 11 </option>
+                                <option value="12" > 12 </option>
+                                <option value="13" > 13 </option>
+                                <option value="14" > 14 </option>
+                                <option value="15" > 15 </option>
+                                <option value="16" > 16 </option>
+                                <option value="17" > 17 </option>
+                                <option value="18" > 18 </option>
+                                <option value="19" > 19 </option>
+                                <option value="20" > 20 </option>
+                                <option value="21" > 21 </option>
+                                <option value="22" > 22 </option>
+                                <option value="23" > 23 </option>
+                                <option value="24" > 24 </option>
+                                <option value="25" > 25 </option>
+                                <option value="26" > 26 </option>
+                                <option value="27" > 27 </option>
+                                <option value="28" > 28 </option>
+                                <option value="29" > 29 </option>
+                                <option value="30" > 30 </option>
+                                <option value="31" > 31 </option>
+                            </select>
+                            </td>
+
+                            <td><select name="bulan">
+                                <option value="januari" selected="selected"> Januari </option>
+                                <option value="febuari" > Febuari </option>
+                                <option value="maret" > Maret </option>
+                                <option value="april" > April </option>
+                                <option value="mei" > Mei </option>
+                                <option value="juni" > Juni </option>
+                                <option value="juli" > Juli </option>
+                                <option value="agustus" > Agustus </option>
+                                <option value="september" > September </option>
+                                <option value="oktober" > Oktober </option>
+                                <option value="november" > November </option>
+                                <option value="desember" > Desember </option>
+                            </select>
+                            </td>
+
+                            <td><select name="tahun">
+                                <option value="1" selected="selected"> 1999 </option>
+                                <option value="2" > 2000 </option>
+                                <option value="3" > 2001 </option>
+                                <option value="4" > 2002 </option>
+                                <option value="5" > 2003 </option>
+                                <option value="6" > 2004 </option>
+                                <option value="7" > 2005 </option>
+                                <option value="8" > 2006 </option>
+                                <option value="9" > 2007 </option>
+                                <option value="10" > 2008 </option>
+                            </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Agama</td>
+                            <td>:</td>
+                            <td><select name="fagama">
+                                <option value="1" selected="selected"> ::PILIH:: </option>
+                                <option value="2" > ISLAM </option>
+                                <option value="3" > KRISTEN </option>
+                                <option value="3" > KATOLIK </option>
+                                <option value="4" > HINDU </option>
+                                <option value="3" > BUDDHA </option>
+                                <option value="4" > KONGHUCU </option>
+                        </tr>
+                        <tr>
+                            <td>Jenis Kelamin</td>
+                            <td>:</td>
+                            <td><input type="radio" name="fgender" value="pria">LAKI-LAKI</td>
+                            <td><input type="radio" name="fgender" value="perempuan">PEREMPUAN</td>
+                        </tr>
+                        <tr>
+                            <td>Alamat</td>
+                            <td>:</td>
+                            <td colspan="5"><textarea name="falamat" cols="40" rows="5"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td>No. HP</td>
+                            <td>:</td>
+                            <td width="10"><input type="number" name="fnohp" size="20"/></td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td></td>
+                            <td width="10"><input type="email" name="femail" size="20"/></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+
+            <div class="data1">
+                <h3> DATA ORANG TUA </h3>
+            </div>
+
+            <div class="data1_ortu">
+                <form action="proses.php" method="POST">
+                    <table>
+                        <tr>
+                            <td>No Kartu Keluarga</td>
+                            <td>:</td>
+                            <td width="10"><input type="number" name="fnokk" size="20"/></td>
+                        </tr>
+                        <tr>
+                            <td>Nama Ayah</td>
+                            <td>:</td>
+                            <td width="10"><input type="text" name="fayah" size="20"/></td>
+                        </tr>
+                        <tr>
+                            <td>Agama</td>
+                            <td>:</td>
+                            <td width="10"><input type="text" name="fagama1" size="20"/></td>
+                        </tr>
+                        <tr>
+                            <td>Pekerjaan Ayah</td>
+                            <td>:</td>
+                            <td width="10"><input type="text" name="fkerja1" size="20"/></td>
+                        </tr>
+                        <tr>
+                            <td>Nama Ibu</td>
+                            <td>:</td>
+                            <td width="10"><input type="text" name="fibu" size="20"/></td>
+                        </tr>
+                        <tr>
+                            <td>Agama</td>
+                            <td>:</td>
+                            <td width="10"><input type="text" name="fagama2" size="20"/></td>
+                        </tr>
+                        <tr>
+                            <td>Pekerjaan Ibu</td>
+                            <td>:</td>
+                            <td width="10"><input type="text" name="fkerja2" size="20"/></td>
+                        </tr>
+                        <tr>
+                            <td>Alamat Orang Tua</td>
+                            <td>:</td>
+                            <td colspan="5"><textarea name="falamatortu" cols="40" rows="5"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td>No. Telp</td>
+                            <td>:</td>
+                            <td width="10"><input type="number" name="ftelp" size="20"/></td>
+                        </tr>
+                    </table>
+
+                    <div class="submit">
+                        <tr>
+                            <td colspan="5" align="center"><input class="daftar" type="submit" name="fsubmit" value="DAFTAR"> <input class="batal" type="reset" name="freset" value="BATAL"></td>
+                        </tr>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
