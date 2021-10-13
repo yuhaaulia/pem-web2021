@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="vieport" content="width=device.width, initial-scale=1">
+    <title>Layout</title>
+
+    <style>
+
+        body{
+            background-color: rgb(209, 230, 243);
+        }
+
+        article{
+            background-color: rgb(231, 247, 196);
+            position: initial;
+            font-family: sans-serif;
+        }
+        .audio{
+            text-align: center;
+        }
+        .video{
+            text-align: center;
+        }
+        .gif{
+            text-align: center;
+        }
+        .ytb{
+            text-align: center;
+        }
+
+        footer{
+            background-color: rgb(233, 97, 215);
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header style="background-color:rgb(138, 97, 233);">
+        <h1 align="center">Layout dengan Elemen Semantik</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>  |
+        <a href="#">About</a>  |
+        <a href="#">Contact</a>
+    </nav>
+
+    <article>
+        <h1 align="center">Tutorial Semantik Elemen untuk Pemula</h1>
+        <hr width="500" style="line-height: normal;">
+    <details>
+        <summary>Lihat Detail</summary>
+          <p>Semantik Elemen adalah elemen yang memiliki makna dan tujuan.
+              Tujuannya agar kode HTML mudah dibaca dan tidak ada penyalahgunaan tag.
+              Elemen Semantik untuk SEO dan juga dapat meningkatkan Accessibility.
+          </p>
+    </details>
+
+    <article>
+        <p>
+            Ditulis pada <time datetime="2020-05-27">27 Mei 2020</time>
+        </p>
+        <p>
+            Hari ini saya ada acara pada pukul <time>08:00 wib</time> sampai pukul <time>17:00 wib</time>
+        </p>
+    </article>
+
+    <div class="audio">
+        <h3>contoh audio di web</h3>
+        <audio controls="true">
+            <source src="BTS.mp3" type="audio/mpeg">
+            Browsermu tidak mendukung tag audio, upgrade dong!
+        </audio>
+    </div>
+
+    <div class="video">
+        <h3>contoh video di web</h3>
+        <video controls width="500" height="300">
+            <source src="Anime.mp4" type="video/mp4"/>
+            Browsermu tidak mendukung tag audio, upgrade dong!
+        </video>
+    </div>
+
+    <div class="gif">
+        <h3>contoh video gif di web</h3>
+        <video autoplay loop muted playsinline width="500" height="300">
+            <source src="Anime.mp4" type="video/mp4"/>
+        </video>
+    </div>
+
+    <div class="ytb">
+        <h3>contoh video dari youtube</h3>
+        <iframe width="500" height="300" src="https://www.youtube.com/embed/n4BrvXafPdU"></iframe>
+    </div>
+
+    </article>
+    <br>
+
+    <footer >
+        Copyright &copy; 2020 by pemrograman web code  
+    </footer>
+
+</body>
+</html>
