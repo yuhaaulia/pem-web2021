@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins,sans-serif; 
+}
+body{
+    background-color: burlywood;
+}
+.medsos{
+    padding: 7px;
+    background-color: #f5e6e6;
+}
+.medsos	ul li {
+	display: inline-block;
+	color: rgb(20, 19, 19);
+	margin-right: 10px;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+/*bagian body pertama atas sendiri yaitu header*/
+header{
+    background-color: tan;
+    margin-bottom: 5px;
+    padding: 7px;
+    border: 10px solid rgb(26, 23, 23);
+	border-style: double;
+}
+.perusahaan{
+	font-family: Copperplate,Copperplate Gothic Light,fantasy;
+    padding: 15px;
+}
+.navbar{
+	font-family: Copperplate,Copperplate Gothic Light,fantasy;
+    padding: 10px;
+}
+.navbar ul li {
+	border: 5px;
+	border-style: outset;
+    display: inline;
+    margin: 5px;
+    list-style: none;
+}
+.navbar a:hover{
+    color: black;
+    background-color: rgb(226, 4, 178);
+}
+
+.container2{
+    width: 400px;
+    min-height: 400px;
+    background-color: rgb(250, 231, 231);
+    border-radius: 6px;
+    box-shadow: 1px, 1px, 5px black ;
+    padding: 70px 50px;
+}
+.container2 .login-text{
+    color: #111;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;text-transform: capitalize;
+}
+
+.container2 .login-email .input-group{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.container2 .login-email .input-group input{
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(65, 65, 65);
+    background-color: transparent;
+    padding: 15px 20px;
+    font-size: 1rem;
+    outline: none;
+    transition: 3s;
+}
+.container2 .login-email .input-group .btn{
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background-color: turquoise;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.3rem;
+    color: #fff;
+    cursor: pointer;
+    transition: 3s;
+}
+
+/* isi body yang terakhir ato keempat */
+footer{
+	font-family: sans-serif;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    color: black;
+    height: fit-content;
+    width: 100%;
+    background-color: #c0acac;
+	bottom: 0px;
+}

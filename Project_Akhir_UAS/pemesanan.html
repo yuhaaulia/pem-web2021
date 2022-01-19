@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemesanan</title>
+</head>
+<body style="background-color: rgb(212, 203, 148)">
+    <style>
+        label{
+            padding: 10px;
+        }
+        form{
+            margin-bottom: 5px;
+            padding-left: 50px;
+        }
+        input{
+            padding: 7px;
+            border-radius: 5px;
+        }
+        textarea{
+            padding: 7px;
+            border-radius: 5px;
+        }  
+    </style>
+    <div>
+        <h2 style="text-align: center;">Data Diri Pemesan</h2>
+        <form style="background: wheat;">
+            <label for="name">Name</label><br/>
+            <input type="text" name="name" placeholder="nama anda">
+            <br>
+            <label for="email">Email</label><br/>
+            <input type="email" name="email" placeholder="alamat email">
+            <br>
+            <label for="telepon">Phone</label><br/>
+            <input type="telepon" name="telepon" placeholder="nomor telepon">
+            <br>
+            <label for="alamat">Address</label><br/>
+            <textarea name="alamat" placeholder="Tulis alamat anda..." rows="5" cols="50"></textarea>
+            <br>
+            <label for="message">Message</label><br/>
+            <textarea name="message" placeholder="Jika ada tambahan pesan tulis disini..!" rows="5" cols="50"></textarea>
+            <br>
+            <input type="button" value="Checkout">
+            <a href="product.html">Back</a>
+        </form>
+    </div>
+</body>
+</html>

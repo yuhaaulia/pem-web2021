@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:rgb(114, 101, 75);
+}
+/*dalemnya body yg pertama*/
+.medsos{
+    padding: 7px;
+    background-color: #f5e6e6;
+}
+.medsos	ul li {
+	display: inline-block;
+	color: rgb(20, 19, 19);
+	margin-right: 10px;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+/*bagian body pertama atas sendiri yaitu header*/
+header{
+    background-color: tan;
+    margin-bottom: 5px;
+    padding: 7px;
+    border: 10px solid rgb(26, 23, 23);
+	border-style: double;
+}
+.perusahaan{
+	font-family: Copperplate,Copperplate Gothic Light,fantasy;
+    padding: 15px;
+}
+.navbar{
+	font-family: Copperplate,Copperplate Gothic Light,fantasy;
+    padding: 10px;
+}
+.navbar ul li {
+	border: 5px;
+	border-style: outset;
+    display: inline;
+    margin: 5px;
+    list-style: none;
+}
+.navbar a:hover{
+    color: black;
+    background-color: rgb(226, 4, 178);
+}
+/* isi body yang kedua index */
+.index{
+    padding: 5px;
+    text-align: center;
+    background-color: burlywood;
+    width: 50%;
+    height: fit-content;
+    margin: auto;
+    margin-bottom: 15px;
+}
+    /* isinya index */
+.konten{
+    padding: 10px;
+}
+.navbar2 ul li {
+    list-style: none;
+    margin: 10px;
+}
+.navbar2 a:hover{
+    color: black;
+    background-color: red;
+}
+/* isi body yg kedua isi */
+.isi{
+    height: fit-content;
+}
+    /* dalemnya isi */
+table{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+.img1{
+    background-color: brown;
+}
+td {
+    padding: 10px;
+}
+.about{
+    background-color: salmon;
+}
+.img2{
+    background-color: rgb(241, 239, 74);
+}
+.visi{
+    background-color: rgb(188, 248, 76);
+}
+.img3{
+    background-color: rgb(42, 150, 150);
+}
+.ide{
+    background-color: rgb(125, 236, 240);
+}
+/* isi body yang terakhir ato keempat */
+footer{
+	font-family: sans-serif;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    color: black;
+    height: fit-content;
+    width: 100%;
+    background-color: #c0acac;
+	bottom: 0px;
+}
